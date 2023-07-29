@@ -34,3 +34,51 @@ o/p:
 20
 40
 40
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java .util.*;
+class Hope
+{
+  int n1;
+static int n2;
+    public void assign()
+    {
+        System.out.println(n1+" "+n2+" ");
+    }
+}
+class HelloWorld {
+    static int d=10;
+    public static void main(String[] args) {
+        Hope obj=new Hope();
+        obj.n1=4;
+         Hope.n2=8;
+        // obj.assign();
+        Hope obj1=new Hope();
+        obj1.n1=7;
+        // obj1.n2=5;
+        // obj1.n2=5;
+        //  obj1.n2=8;
+          Hope obj2=new Hope();
+        obj2.n1=6;
+        //  obj2.n2=10;
+        obj.assign();
+        obj2.assign();
+        obj1.assign();
+        
+        // System.out.println(obj.n2);
+        
+        
+      
+        
+        
+    }
+   
+}
+
+o/p::
+4 8 
+6 8 
+7 8 
