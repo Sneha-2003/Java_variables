@@ -1,0 +1,36 @@
+local 
+instance
+static
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java .util.*;
+
+class HelloWorld {
+    static int d=10;
+    public static void main(String[] args) {
+        HelloWorld obj=new HelloWorld();
+        System.out.println(obj.d);
+        HelloWorld obj1=new HelloWorld();
+        obj1.d=20;
+        System.out.println(obj1.d);
+         HelloWorld obj2=new HelloWorld();
+        obj2.d=40;
+        System.out.println(obj2.d);
+        
+      
+        obj.display();
+        
+    }
+    public void display()
+    {
+         System.out.println(d);
+    }
+}
+
+o/p:
+
+10
+20
+40
+40
